@@ -1,6 +1,6 @@
 <?
-	$this->title = "Zachary Rosenberg, Complex Web Application & Mobile Developer";
-	$this->template('website','top');
+	$this->title = "Zachary Rosenberg, Web & Mobile Application Developer";
+	$this->template('website','top'); 
 ?>
 	
 <!doctype html>
