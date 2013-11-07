@@ -3,84 +3,10 @@
 	$this->template('website','top'); 
 ?>
 	
-<!doctype html>
-<!--[if lt IE 7 ]> <html  lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html  lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html  lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html  lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html  lang="en" class="no-js"> <!--<![endif]-->
-<head>
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <title>Freelance Web Developer NYC 856-520-4054</title>
-
-    <meta name="viewport" content="width=500, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="/templates/html5/html5.css?1379077004" />
-    <link rel="stylesheet" type="text/css" href="/cached-assets/pages/default/default.less.1379174733.css" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>!window.jQuery && document.write(unescape('%3Cscript src="/lib/js/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
-
-    <!--[if (lt IE 9) & (!IEMobile)]>
-        <script src="/lib/js/jquery-extended-selectors.js"></script>
-        <script src="/lib/js/selectivizr-min.js"></script>
-    <![endif]-->
-
-    <link rel="author" href="https://plus.google.com/100973254658179341847"/>
-    <link rel="publisher" href="https://plus.google.com/u/0/100973254658179341847/about"/>
-    <meta name="description" content="Freelance Full-Stack Web Developer NYC. I specialize in beautiful, high performance, and scalable websites &amp; mobile apps." />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <script src="/lib/js/modernizr-1.7.min.js"></script>
-</head>
-<body>
-<div id="skybox" style="display:none;position:absolute;z-index:9999;"></div>
-<div id="overlay" style="display:none;position:absolute;z-index:5000"></div>
-<div id="body">    <style type="text/css">
-    #body {
-        display: none;
-    }
-    </style>
-
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-44029858-1', 'williamschmid.com');
-      ga('send', 'pageview');
-
-    </script>
-
-
-
     <section id="home"
         data-stellar-background-ratio="0"
     >
     
-        <nav>
-            
-        <div class="has-floats">
-            <div class="logo"></div>
-            <div class="float-left">
-                <span class="thin">William</span>
-                <span class="bold">Schmid</span>
-            </div>
-            <ul class="float-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#clients">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>    
-        </div>
-        </nav>
-
         <h1>I Build World-Class Websites &amp; Mobile Apps</h1>
         <h3 class=".tk-omnes-pro">I specialize in the design and development of web and mobile products.</h3>
         <h3>There is no project too large or too small.</h3>
