@@ -3,22 +3,6 @@
 	$this->template('website','top'); 
 ?>
 	
-    <section id="home"
-        data-stellar-background-ratio="0"
-    >
-    
-        <h1>I Build World-Class Websites &amp; Mobile Apps</h1>
-        <h3 class=".tk-omnes-pro">I specialize in the design and development of web and mobile products.</h3>
-        <h3>There is no project too large or too small.</h3>
-
-        <div class="learn-more">
-            <a href="#about" class="button">Learn More</a>
-        </div>
-    </section>
-    
-
-
-
     <nav class="fixable">
         
         <div class="has-floats">
