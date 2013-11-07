@@ -17,8 +17,8 @@
     <title>Freelance Web Developer NYC 856-520-4054</title>
 
     <meta name="viewport" content="width=500, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="/templates/html5/html5.css?1379077004" />
-        <link rel="stylesheet" type="text/css" href="/cached-assets/pages/default/default.less.1379174733.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/html5/html5.css?1379077004" />
+    <link rel="stylesheet" type="text/css" href="/cached-assets/pages/default/default.less.1379174733.css" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -28,17 +28,6 @@
         <script src="/lib/js/jquery-extended-selectors.js"></script>
         <script src="/lib/js/selectivizr-min.js"></script>
     <![endif]-->
-
-    <script type="text/javascript">
-      (function() {
-        var config = {
-          kitId: "hpv1qga",
-          scriptTimeout: 3000
-        };
-        var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src="//use.typekit.net/"+config.kitId+".js";tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-      })();
-    </script>
-
 
     <link rel="author" href="https://plus.google.com/100973254658179341847"/>
     <link rel="publisher" href="https://plus.google.com/u/0/100973254658179341847/about"/>
