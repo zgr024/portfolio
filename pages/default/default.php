@@ -3,7 +3,7 @@
 	$this->template('website','top'); 
 ?>
 	
-    <section id="overview">
+   <!-- <section id="overview">
         <div class="centered">
             <div class="subtitle">
                 I can help with all phases of the software development process.
@@ -419,6 +419,8 @@
         </div>
         
     </section>
+    -->
+    Coming Soon
 <?	
 	$this->template('website','bottom');
 ?>
