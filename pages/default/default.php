@@ -268,7 +268,7 @@ $this->template('html5', 'top');
 
                     <img src="/images/screens/600/js.png"
                         alt="Website Design &amp; Development for Johnsen Service" 
-                        data-url="http://jetsetnyc.com" 
+                        data-url="http://johnsenservice.com" 
                         />
 
                     <img src="/images/screens/600/nyec.png"
@@ -287,18 +287,18 @@ $this->template('html5', 'top');
                         />
 
                     <img src="/images/screens/600/fs.png" 
-                        alt="Full Screen Video Home-Page Development for Fision Stay" 
-                        data-url="http://mortgagefast.com" 
+                        alt="Full Screen Video Landing &amp; Single Page Scroll Navigation for Fision&reg; Stay by Hotwire" 
+                        data-url="http://fisionstay.com" 
                         />
 
                     <img src="/images/screens/600/fsm.png" 
-                        alt="Web Development for Flirt Skirt or Marry" 
-                        data-url="http://nyephilly.com" 
+                        alt="Web Development &amp Analytics for Flirt Skirt or Marry" 
+                        data-url="http://flirtskirtormarry.com" 
                         />
 
                     <img src="/images/screens/600/fh.png" 
                         alt="Web Development, Rets Download, &amp Custom Map for Find Home Real Estate"
-                        data-url="http://stephensoncreative.com" 
+                        data-url="http://homesphl.com" 
                         />
 
                 </div>
