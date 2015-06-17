@@ -46,7 +46,7 @@ $this->template('html5', 'top');
 	
 	</script>
 
-    <section data-stellar-background-ratio="0" id="home">
+    <section id="home" data-stellar-background-ratio="0">
     
         <nav>
             <? include 'nav.php'; ?>
