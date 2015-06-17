@@ -3,8 +3,6 @@
 $this->js[] = '/lib/jquery.cycle2.js';
 $this->js[] = '/lib/cycle2-ios6fix.js';
 $this->js[] = '/lib/stellar.js/jquery.stellar.min.js';
-#$this->js[] = '//use.typekit.net/hpv1qga.js';
-#$this->head[] = '<script type="text/javascript">try{Typekit.load();}catch(e){}</script>';
 $this->head[] = '
     <script type="text/javascript">
       (function() {
@@ -52,9 +50,7 @@ $this->template('html5', 'top');
 ?>
 
 
-    <section id="home"
-        data-stellar-background-ratio="0"
-    >
+    <section id="home" data-stellar-background-ratio="0">
     
         <nav>
             <? include 'nav.php'; ?>
