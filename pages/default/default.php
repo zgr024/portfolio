@@ -257,23 +257,23 @@ $this->template('html5', 'top');
                         />
                     
                     <img src="/images/screens/600/ct.png" 
-                        alt="Developed Crave Tickets" 
+                        alt="Web Development for Crave Tickets" 
                         data-url="http://cravetickets.com" 
                         />
 
+                   <img src="/images/screens/600/nyec.png"
+                        alt="Full-Stack Development for New Year's Eve Central" 
+                        data-url="http://newyearsevecentral.com" 
+                        />
+
                     <img src="/images/screens/600/ma.png" 
-                        alt="Custom Online Bill Pay for Hotwire Communications" 
-                        data-url="http://blcpsychologytribeca.com" 
+                        alt="Customer Website w/Online Payment Solution for Hotwire Communications" 
+                        data-url="http://gethotwired.com" 
                         />
 
                     <img src="/images/screens/600/js.png"
                         alt="Website Design &amp; Development for Johnsen Service" 
                         data-url="http://johnsenservice.com" 
-                        />
-
-                    <img src="/images/screens/600/nyec.png"
-                        alt="Full-Stack Development for New Year's Eve Central" 
-                        data-url="http://newyearsevecentral.com" 
                         />
 
                     <img src="/images/screens/600/ec.png" 
@@ -282,7 +282,7 @@ $this->template('html5', 'top');
                         />
 
                     <img src="/images/screens/600/bc.png" 
-                        alt="Web and Mobile Development for Bar Crawls" 
+                        alt="Web &amp; Mobile Development for Bar Crawls" 
                         data-url="http://barcrawls.com" 
                         />
 
@@ -297,7 +297,7 @@ $this->template('html5', 'top');
                         />
 
                     <img src="/images/screens/600/fh.png" 
-                        alt="Web Development, Rets Download, &amp Custom Map for Find Home Real Estate"
+                        alt="Web Development, Rets Download, &amp Custom Interactive Map for Find Home Real Estate"
                         data-url="http://homesphl.com" 
                         />
 
