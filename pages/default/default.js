@@ -55,7 +55,10 @@ $(function(){
     $(document)
         // on nav click
         .on('click', 'a', function(){
-            
+
+            // Send event to analytics
+			ga('send', 'event', 'href', 'click', $(this).attr('href'));
+			
             // compensation since the anchors are not scrolling to the correct spot
             var anchor_offset = 50;
 
@@ -67,9 +70,6 @@ $(function(){
             var anchor = $.attr(this, 'href').substr(1);
             var aTag = $("#" + anchor);
             var y = aTag.offset().top - anchor_offset;
-			
-			// Send event to analytics
-			ga('send', 'event', 'href', 'click', anchor);
 			
             // don't compensate for home
             if (y < 0) y = 0;
