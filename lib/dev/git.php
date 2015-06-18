@@ -67,5 +67,5 @@ if($allow_auto_updates){
 
 echo '<pre>' . $message . '</pre>';
 
-# mail('will123195@gmail.com','git hook',ob_get_contents());
+# mail('zgr024@gmail.com','git hook',ob_get_contents());
 ?>
