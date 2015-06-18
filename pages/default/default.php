@@ -358,7 +358,7 @@ $this->template('html5', 'top');
                 'Abby (Ferko) Sonnett',
                 '/images/people/abby.jpg',
                 'Founder and President',
-                "Zach was a pleasure to work with and his expertise was greatly appreciated.",
+                "Zach is the best! He was a pleasure to work with and his expertise was greatly appreciated.",
                 'http://www.linkedin.com/profile/view?id=132558205&authType=NAME_SEARCH&authToken=2XeH&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2Cidx%3A2-1-2%2CtarId%3A1434553680904%2Ctas%3AAbby%20'
             ],
             [
