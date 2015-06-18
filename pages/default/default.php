@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * Author: Zach Rosenberg
+ * Website: http://zrosenberg.com
+ * File: default.php
+ * Version: 1.0
+ * Usage: PHP file for default (home) page
+ */
+
 $this->js[] = '/lib/jquery.cycle2.js';
 $this->js[] = '/lib/cycle2-ios6fix.js';
 $this->js[] = '/lib/stellar.js/jquery.stellar.min.js';

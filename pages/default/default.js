@@ -1,3 +1,11 @@
+/*
+ * Author: Zach Rosenberg
+ * Website: http://zrosenberg.com
+ * File: default.js
+ * Version: 1.0
+ * Usage: JavaScript file for default (home) page, utilizes stellar.js
+ */
+
 $(function(){
     
     // responsive formatting based on window width
@@ -60,6 +68,7 @@ $(function(){
             var aTag = $("#" + anchor);
             var y = aTag.offset().top - anchor_offset;
 			
+			// Send event to analytics
 			ga('send', 'event', 'href', 'click', anchor);
 			
             // don't compensate for home
