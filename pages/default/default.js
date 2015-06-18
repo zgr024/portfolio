@@ -59,7 +59,9 @@ $(function(){
             var anchor = $.attr(this, 'href').substr(1);
             var aTag = $("#" + anchor);
             var y = aTag.offset().top - anchor_offset;
-
+			
+			ga('send', 'event', 'href', 'click', anchor);
+			
             // don't compensate for home
             if (y < 0) y = 0;
 
