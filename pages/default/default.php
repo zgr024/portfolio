@@ -418,7 +418,7 @@ $this->template('html5', 'top');
             
             <ul>
                 <li class="email">
-                    <a href="mailto:<?=encode('zgr024@gmail.com')?>"><?=encode('zgr024@gmail.com')?></a></li>
+                    <a target="_blank" href="mailto:<?=encode('zgr024@gmail.com')?>"><?=encode('zgr024@gmail.com')?></a></li>
                 <li class="phone">+1 (856) 924-0869  mobile</li>
                 <li class="address">
                     18 Palmwood Ave<br />
