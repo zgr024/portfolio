@@ -350,7 +350,7 @@ $this->template('html5', 'top');
             [
                 'William Schmid',
                 '/images/people/will.jpg',
-                'CTO',
+                'CTO &amp; Owner',
                 "I've been working with Zach for over a decade. He has come through at crucial times.",
                 'http://linkedin.com/in/willschmid'
             ],
