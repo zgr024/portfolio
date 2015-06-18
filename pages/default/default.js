@@ -55,8 +55,17 @@ $(function(){
     $(document)
         // on nav click
         .on('click', 'a', function(){
+			
+			var label = $(this).attr('href').replace('#','');
 
             // Send event to analytics
+			ga('send', {
+			  'hitType': 'event',          // Required.
+			  'eventCategory': 'button',   // Required.
+			  'eventAction': 'click',      // Required.
+			  'eventLabel': label,
+			  'post': 'Metallics'
+			});
 			ga('send', 'event', 'link', 'click', {page: $(this).attr('href').replace('#','')} );
 			
             // compensation since the anchors are not scrolling to the correct spot
