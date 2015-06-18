@@ -56,7 +56,7 @@ $(function(){
         // on nav click
         .on('click', 'a', function(){
 			
-			var label = $(this).attr('href').replace('#','');
+			var label = $(this).attr('href').replace('#','')+":Metallics";
 
             // Send event to analytics
 			ga('send', {
@@ -64,7 +64,6 @@ $(function(){
 			  'eventCategory': 'button',   // Required.
 			  'eventAction': 'click',      // Required.
 			  'eventLabel': label,
-			  'post': 'Metallics'
 			});
 			ga('send', 'event', 'link', 'click', {page: $(this).attr('href').replace('#','')} );
 			
