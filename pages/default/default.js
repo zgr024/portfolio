@@ -60,12 +60,11 @@ $(function(){
 
             // Send event to analytics
 			ga('send', {
-			  'hitType': 'event',          // Required.
-			  'eventCategory': 'button',   // Required.
+			  'hitType': 'event',            // Required.
+			  'eventCategory': 'link',      // Required.
 			  'eventAction': 'click',      // Required.
 			  'eventLabel': label,
 			});
-			ga('send', 'event', 'link', 'click', {page: $(this).attr('href').replace('#','')} );
 			
             // compensation since the anchors are not scrolling to the correct spot
             var anchor_offset = 50;
