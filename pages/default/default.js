@@ -6,105 +6,103 @@
  * Usage: JavaScript file for default (home) page, utilizes stellar.js
  */
 
-$(function(){
+$(document)
+	
+	.ready(function (){
     
-    // responsive formatting based on window width
-    if ($(window).width() >= 1000) {
-        $('#body').addClass('r1000');
-    } else {
-        $('#body').addClass('r500');
-    }
-    
-    // prevent flash of unstyled text
-    $('#body').show();
-
-    // start the slideshow
-    $('.cycle-slideshow').show();
-
-
-    // disable parallax on mobile devices
-    if(!Modernizr.touch){ 
-        $.stellar({ 
-            horizontalScrolling: false 
-        });
-    }
-
-    // force android chrome to fix the background hidden overflow
-    //$('html').width(screen.width);
-
-
-    // on scroll
-    var top = $('#home').outerHeight();
-    // the placeholder appears when the nav snaps to the top to preserve the window height
-    $('#nav-placeholder').height($('nav').outerHeight());    
-    $(window).scroll(function (event) {
-
-        debug();
-
-        var y = $(this).scrollTop();
-        if (y >= top) {
-            $('nav.fixable').addClass('fixed');
-            $('#nav-placeholder').show();
-        } else {
-            $('nav.fixable').removeClass('fixed');
-            $('#nav-placeholder').hide();
-        }
-    });
-
-
-    $(document)
-        // on nav click
-        .on('click', 'a', function(){
-			
-			var label = $(this).attr('href').replace('#','');
-
-            // Send event to analytics
-			ga('send', {
-			  'hitType': 'event',            // Required.
-			  'eventCategory': 'link',      // Required.
-			  'eventAction': 'click',      // Required.
-			  'eventLabel': label,
+		// responsive formatting based on window width
+		if ($(window).width() >= 1000) {
+			$('#body').addClass('r1000');
+		} else {
+			$('#body').addClass('r500');
+		}
+		
+		// prevent flash of unstyled text
+		$('#body').show();
+	
+		// start the slideshow
+		$('.cycle-slideshow').show();
+	
+	
+		// disable parallax on mobile devices
+		if(!Modernizr.touch){ 
+			$.stellar({ 
+				horizontalScrolling: false 
 			});
-			
-            // compensation since the anchors are not scrolling to the correct spot
-            var anchor_offset = 50;
+		}
+	
+		// force android chrome to fix the background hidden overflow
+		//$('html').width(screen.width);
+	
+	
+		// on scroll
+		var top = $('#home').outerHeight();
+		// the placeholder appears when the nav snaps to the top to preserve the window height
+		$('#nav-placeholder').height($('nav').outerHeight());    
+		$(window).scroll(function (event) {
+	
+			debug();
+	
+			var y = $(this).scrollTop();
+			if (y >= top) {
+				$('nav.fixable').addClass('fixed');
+				$('#nav-placeholder').show();
+			} else {
+				$('nav.fixable').removeClass('fixed');
+				$('#nav-placeholder').hide();
+			}
+		})
+		
+		 // on window resize
+		$(window).resize(function() {
+			var w = $(this).width();
+			if (w <= 1000) {
+				$('#body').removeClass('r1000').addClass('r500');
+			} else {
+				$('#body').removeClass('r500').addClass('r1000');
+			}
+		});
+	
+	
+		// on device rotate
+		jQuery(window).bind('orientationchange', function(e) {
+			debug();
+		});
+	})
 
-            // only hijack this click if this hyperlink is a named anchor
-            var chr = $.attr(this, 'href').substr(0,1);
-            if (chr != '#') {
-                return true;
-            }
-            var anchor = $.attr(this, 'href').substr(1);
-            var aTag = $("#" + anchor);
-            var y = aTag.offset().top - anchor_offset;
-			
-            // don't compensate for home
-            if (y < 0) y = 0;
+	     // on nav click
+	.on('click', 'a', function(){
+		
+		var label = $(this).attr('href').replace('#','');
 
-            $('html,body').animate({scrollTop: y},'slow');
-            return false;
-        })
-    ;//document
+		// Send event to analytics
+		ga('send', {
+		  'hitType': 'event',            // Required.
+		  'eventCategory': 'link',      // Required.
+		  'eventAction': 'click',      // Required.
+		  'eventLabel': label,
+		});
+		
+		// compensation since the anchors are not scrolling to the correct spot
+		var anchor_offset = 50;
 
+		// only hijack this click if this hyperlink is a named anchor
+		var chr = $.attr(this, 'href').substr(0,1);
+		if (chr != '#') {
+			return true;
+		}
+		var anchor = $.attr(this, 'href').substr(1);
+		var aTag = $("#" + anchor);
+		var y = aTag.offset().top - anchor_offset;
+		
+		// don't compensate for home
+		if (y < 0) y = 0;
 
-    // on window resize
-    $(window).resize(function() {
-        var w = $(this).width();
-        if (w <= 1000) {
-            $('#body').removeClass('r1000').addClass('r500');
-        } else {
-            $('#body').removeClass('r500').addClass('r1000');
-        }
-    });
+		$('html,body').animate({scrollTop: y},'slow');
+		return false;
+	})
 
-
-    // on device rotate
-    jQuery(window).bind('orientationchange', function(e) {
-        debug();
-    });
-
-
-});
+;
 
 function debug() {
     $('#debug').html(
