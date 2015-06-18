@@ -57,7 +57,7 @@ $(function(){
         .on('click', 'a', function(){
 
             // Send event to analytics
-			ga('send', 'event', 'href', 'click', $(this).attr('href').replace('#',''));
+			ga('send', 'event', 'link', 'click', $(this).attr('href').replace('#',''));
 			
             // compensation since the anchors are not scrolling to the correct spot
             var anchor_offset = 50;
