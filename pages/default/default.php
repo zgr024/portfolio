@@ -255,7 +255,12 @@ $this->template('html5', 'top');
                         alt="6 years as Sr Developer at Joonbug" 
                         data-url="http://joonbug.com" 
                         />
-                    
+
+					<img src="/images/screens/600/hc.png" 
+                        alt="4 years as Sr Developer at Hotwire Communications" 
+                        data-url="http://hotwirecommunications.com" 
+                        />
+                                            
                     <img src="/images/screens/600/ct.png" 
                         alt="Web Development for Crave Tickets" 
                         data-url="http://cravetickets.com" 
@@ -297,7 +302,7 @@ $this->template('html5', 'top');
                         />
 
                     <img src="/images/screens/600/fh.png" 
-                        alt="Web Development, Rets Download, &amp Custom Interactive Map for Find Home Real Estate"
+                        alt="Web Development, RETS Download, &amp Custom Interactive Map for Find Home Real Estate"
                         data-url="http://homesphl.com" 
                         />
 
