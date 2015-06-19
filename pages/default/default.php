@@ -117,12 +117,11 @@ $this->template('html5', 'top');
                     <li>CakePHP</li>
                     <li>CodeIgniter</li>
                     <li>Drupal</li>
-                    <li>Joomla</li>
                     <li>Magento</li>
+                    <li>Laravel</li>
                     <li>SkyPHP</li>
                     <li>Symfony</li>
                     <li>Wordpress</li>
-                    <li>Zend</li>
                 </ul>
             </fieldset>
 
@@ -146,9 +145,9 @@ $this->template('html5', 'top');
                     <li>Apache / Nginx</li>
                     <li>Memcached</li>
                     <li>Mongo</li>
-                    <li>MySQL / PostgreSQL</li>
-                    <li>NodeJS</li>
                     <li>Redis</li>
+                    <li>MySQL / PostgreSQL</li>
+                    <li>NodeJS</li>                    
                 </ul>
             </fieldset>
 
@@ -159,7 +158,7 @@ $this->template('html5', 'top');
                     <li>HTML5 / CSS3 / LESS</li>
                     <li>Java / Python</li>
                     <li>Responsive Design</li>
-                    <li>REST API / OAuth 2.0</li>
+                    <li>REST API / SOAP / OAuth 2.0</li>
                     <li>SEO</li>
                     <li>SQL</li>
                 </ul>
