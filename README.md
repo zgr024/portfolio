@@ -1,4 +1,4 @@
-ws
+portfolio
 ==
 
-williamschmid.com
+zrosenberg.com
