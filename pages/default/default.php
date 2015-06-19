@@ -32,7 +32,7 @@ $this->head[] = '
     <meta name="apple-mobile-web-app-capable" content="yes" />
 ';
 
-$this->viewport = 'width=device-width, initial-scale=1';
+$this->viewport = 'width=500, initial-scale=1';
 
 $this->template('html5', 'top');
 
