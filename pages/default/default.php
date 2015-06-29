@@ -142,10 +142,10 @@ $this->template('html5', 'top');
                 <ul>
                     <li>AWS / Heroku</li>
                     <li>Apache / Nginx</li>
+                    <li>MySQL / PostgreSQL / DB2</li>
                     <li>Memcached</li>
                     <li>Mongo</li>
-                    <li>Redis</li>
-                    <li>MySQL / PostgreSQL / DB2</li>
+                    <li>Redis</li>                    
                     <li>NodeJS</li>                    
                 </ul>
             </fieldset>
