@@ -60,12 +60,12 @@ $this->template('html5', 'top');
             <? include 'nav.php'; ?>
         </nav>
 
-        <h1>I Build World-Class Websites &amp; Mobile Apps</h1>
-        <h3 class=".tk-omnes-pro">I specialize in the design and development of web and mobile products.</h3>
-        <h3>There is no project too large or too small.</h3>
+        <h1>I Create Premier Websites &amp; Mobile Apps</h1>
+        <h3 class=".tk-omnes-pro">I specialize in the design and development of custom web applications and mobile products.</h3>
+        <h3>Dreams of all sizes are accepted, no job too large or small.</h3>
 
         <div class="learn-more">
-            <a href="#about" class="button">Learn More</a>
+            <a href="#about" class="button">Find Out More</a>
         </div>
     </section>
     
@@ -83,7 +83,7 @@ $this->template('html5', 'top');
     <section id="overview">
         <div class="centered">
             <div class="subtitle">
-                I can help with all phases of the software development process.
+                Consultations available for all phases of your project.
             </div>
         </div>
     </section>
@@ -100,12 +100,11 @@ $this->template('html5', 'top');
         <div class="snapshot">
             <div class="headshot"></div>
             <div class="float-left">
-                <div class="title">Lead Full-Stack Web Developer &amp; Technical Strategy Consultant</div>
+                <div class="title">Senior/Lead Full-Stack Web Developer &amp; Consultant</div>
                 <div class="description">
                     I have 10+ years of experience as a Sr PHP and freelance web developer. 
-                    I've built mission critical software applications and e-commerce platforms that 
-                    process over 1 million dollars per day.  Having hired and managed teams of 
-                    engineers and designers, I am a proven technical leader.
+                    I've created all types of software applications - from those that process millions of dollars - 
+                    to simple blog and informational sites - to full-fledge advertising and lead generation.
                 </div>
             </div>
         </div>
@@ -114,7 +113,6 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>PHP</legend>
                 <ul>
-                    <li>CakePHP</li>
                     <li>CodeIgniter</li>
                     <li>Drupal</li>
                     <li>Magento</li>
@@ -122,6 +120,7 @@ $this->template('html5', 'top');
                     <li>SkyPHP</li>
                     <li>Symfony</li>
                     <li>Wordpress</li>
+                    <li>PHPUnit</li>
                 </ul>
             </fieldset>
 
@@ -154,10 +153,11 @@ $this->template('html5', 'top');
             <fieldset class="misc">
                 <legend>Misc</legend>
                 <ul>
+                	<li>WHM / cPanel</li>
                     <li>Git / SVN</li>
                     <li>HTML5 / CSS3 / LESS</li>
                     <li>Java / Python</li>
-                    <li>Responsive Design</li>
+                    <li>Responsive Design / Bootstrap</li>
                     <li>REST API / SOAP / OAuth 2.0</li>
                     <li>SEO</li>
                     <li>SQL</li>
