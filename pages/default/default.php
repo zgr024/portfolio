@@ -159,7 +159,7 @@ $this->template('html5', 'top');
                     <li>Java / Python</li>
                     <li>Responsive Design / Bootstrap</li>
                     <li>REST API / SOAP / OAuth 2.0</li>
-                    <li>SEO</li>
+                    <li>SEO / Analytics/li>
                     <li>SQL</li>
                 </ul>
             </fieldset>
