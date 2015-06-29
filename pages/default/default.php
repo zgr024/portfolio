@@ -186,7 +186,7 @@ $this->template('html5', 'top');
                         <a href="https://github.com/zgr024" target="_blank">github.com/zgr024</a>
                     </li>
                     <li class="linkedin">
-                        <a href="https://www.linkedin.com/profile/view?id=146413441&authType=NAME_SEARCH&authToken=zdwB&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2Cidx%3A1-1-1%2CtarId%3A1434552223670%2Ctas%3AZac" target="_blank">linkedin.com</a>
+                        <a href="https://www.linkedin.com/pub/zach-rosenberg/41/4a/1" target="_blank">linkedin.com</a>
                     </li>
                     <li class="stackoverflow">
                         <a href="http://stackoverflow.com/users/1704261/zgr024" target="_blank">stackoverflow.com/users/1704261/zgr024</a>
@@ -363,14 +363,14 @@ $this->template('html5', 'top');
                 '/images/people/abby.jpg',
                 'Founder and President',
                 "Zach is the best! He was a pleasure to work with and his expertise was greatly appreciated.",
-                'http://www.linkedin.com/profile/view?id=132558205&authType=NAME_SEARCH&authToken=2XeH&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2Cidx%3A2-1-2%2CtarId%3A1434553680904%2Ctas%3AAbby%20'
+                'https://www.linkedin.com/pub/abby-sonnett/38/487/b11'
             ],
             [
                 'Tom Johnsen',
                 '/images/people/tom.jpg',
                 'Owner and President',
                 "Zach is the man when it comes to websites and seo. I've received tons of business from my site.",
-                'http://linkedin.com/pub/michael-bauer/2/17a/120'
+                'https://www.linkedin.com/pub/tom-johnsen/25/218/606'
             ],
             [
                 'Damian Sobrevilla',
