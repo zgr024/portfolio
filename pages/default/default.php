@@ -145,7 +145,7 @@ $this->template('html5', 'top');
                     <li>Memcached</li>
                     <li>Mongo</li>
                     <li>Redis</li>
-                    <li>MySQL / PostgreSQL</li>
+                    <li>MySQL / PostgreSQL / DB2</li>
                     <li>NodeJS</li>                    
                 </ul>
             </fieldset>
