@@ -104,7 +104,7 @@ $this->template('html5', 'top');
                 <div class="description">
                     I have over a decade of experience as a Sr PHP and freelance web developer. 
                     I've created all types of software applications - from those that process millions of dollars - 
-                    to simple blog and informational sites and advertising/lead generation platforms.
+                    to blog rolls, informational sites and advertising/lead generation platforms.
                 </div>
             </div>
         </div>
