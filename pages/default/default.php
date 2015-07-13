@@ -186,7 +186,7 @@ $this->template('html5', 'top');
                         <a href="https://github.com/zgr024" target="_blank">github.com/zgr024</a>
                     </li>
                     <li class="linkedin">
-                        <a href="https://www.linkedin.com/pub/zach-rosenberg/41/4a/1" target="_blank">linkedin.com</a>
+                        <a href="https://www.linkedin.com/pub/zach-rosenberg/41/4a/1" target="_blank">linkedin.com/pub/zach-rosenberg/41/4a/1</a>
                     </li>
                     <li class="stackoverflow">
                         <a href="http://stackoverflow.com/users/1704261/zgr024" target="_blank">stackoverflow.com/users/1704261/zgr024</a>
