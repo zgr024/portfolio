@@ -244,12 +244,12 @@ $this->template('html5', 'top');
                     data-cycle-caption="#caption"
                     data-cycle-caption-template="<a href='{{url}}' class='external' target='_blank'>{{alt}}</a>"
                 >
-                    <img src="/images/screens/600/su.png" 
-                        class="first" 
-                        alt="I can use any IDE but Sublime Text makes coding faster and easier." 
-                        data-url="#work"
+
+                    <img src="/images/screens/600/mw.png" 
+                        alt="Chief Technology Officer @ Webmax"
+                        data-url="http://webmaxco.com" 
                         />
-                    
+
                     <img src="/images/screens/600/jb.png" 
                         alt="6 years as Sr Developer at Joonbug" 
                         data-url="http://joonbug.com" 
@@ -258,6 +258,19 @@ $this->template('html5', 'top');
 					<img src="/images/screens/600/hc.png" 
                         alt="4 years as Sr Developer at Hotwire Communications" 
                         data-url="http://hotwirecommunications.com" 
+                        />
+
+
+                    <img src="/images/screens/600/oe.png" 
+                        alt="Web Development for Ouija Entertainment" 
+                        data-url="http://ouijaentertainment.com" 
+                        />
+                    
+
+                    <img src="/images/screens/600/atom.png" 
+                        class="first" 
+                        alt="I can use any IDE" 
+                        data-url="#work"
                         />
                                             
                     <img src="/images/screens/600/ct.png" 
@@ -276,7 +289,7 @@ $this->template('html5', 'top');
                         />
 
                     <img src="/images/screens/600/js.png"
-                        alt="Website Design &amp; Development for Johnsen Service" 
+                        alt="Mobile Responsive Website Design &amp; Development for Johnsen Service" 
                         data-url="http://johnsenservice.com" 
                         />
 
@@ -305,10 +318,6 @@ $this->template('html5', 'top');
                         data-url="http://homesphl.com" 
                         />
 
-                    <img src="/images/screens/600/mw.png" 
-                        alt="Mortageware, Realtyware and Custom CMS @ Webmax"
-                        data-url="http://webmaxco.com" 
-                        />
 
                 </div>
                 <div id="glare" class="cycle-next hover-pause"></div>
