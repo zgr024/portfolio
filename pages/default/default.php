@@ -23,13 +23,26 @@ $this->head[] = '
     </script>
 ';
 
-$this->title = 'Freelance Web Developer Tri-State Area 856-924-0869';
+$this->title = 'Freelance Web Developer Tri-State Area (856) 924-0869';
 
 $this->head[] = '
-    <link rel="author" href="https://plus.google.com/100973254658179341847"/>
-    <link rel="publisher" href="https://plus.google.com/u/0/105186635363044909730/about"/>
-    <meta name="description" content="Freelance Full-Stack Web Developer Tri-State Area. I specialize in beautiful, high performance, and scalable websites &amp; mobile apps." />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="author" href="https://plus.google.com/+ZachRosenberg1"/>
+    <link rel="publisher" href="https://business.google.com/b/101348015104789859028/dashboard/l/13365221207641287605/getstarted?hl=en&service=plus"/>
+    <meta name="description" content="Freelance Full-Stack Web Developer Tri-State Area. I specialize in beautiful, high performance, and scalable websites & mobile apps."/>
+    <meta name="keywords" content="websites, mobile, new jersey, philadelphia, new york, tri-state, apps, developer"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta property="og:title" content="Zach Rosenberg, Full-Stack Freelance Developer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:img" content="http://zrosenberg.com/images/zach.jpg"/>
+    <meta property="og:url" content="http://zrosenberg.com"/>
+    <meta property="og:description" content="New Generation Website Develpment By Zach Rosenberg"/>
+    <meta name="DC.language" CONTENT="EN">
+    <meta name="DC.source" CONTENT="http://zrosenberg.com">
+    <meta name="DC.title" CONTENT="Freelance Web Developer Tri-State Area 856-924-0869">
+    <meta name="DC.keywords" CONTENT="websites, mobile, new jersey, philadelphia, new york, tri-state, apps, developer">
+    <meta name="DC.subject" CONTENT="Website & Mobile App Development">
+    <meta name="DC.description" CONTENT="Freelance Full-Stack Web Developer Tri-State Area. I specialize in beautiful, high performance, and scalable websites &amp; mobile apps.">
+
 ';
 
 $this->viewport = 'width=500, initial-scale=1';
