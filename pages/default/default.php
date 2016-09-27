@@ -113,11 +113,13 @@ $this->template('html5', 'top');
         <div class="snapshot">
             <div class="headshot"></div>
             <div class="float-left">
-                <div class="title">Senior/Lead Full-Stack Web Developer &amp; Consultant</div>
+                <div class="title">Chief Technology Officer | Technology Consultant</div>
                 <div class="description">
-                    I have over a decade of experience as a Sr PHP and freelance web developer. 
                     I've created all types of software applications - from those that process millions of dollars - 
                     to blog rolls, informational sites and advertising/lead generation platforms.
+                    <br><br>
+                    I was recently named the Technology Consultant for the Mortgage Bankers Association of Greater
+                    Philadelphia and I was also recently invited to become a member of the Forbes Technology Council.
                 </div>
             </div>
         </div>
@@ -126,13 +128,12 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>PHP</legend>
                 <ul>
-                    <li>CodeIgniter</li>
-                    <li>Drupal</li>
+                    <li>MVC</li>
                     <li>Magento</li>
                     <li>Laravel</li>
-                    <li>SkyPHP</li>
                     <li>Symfony</li>
                     <li>Wordpress</li>
+                    <li>SkyPHP</li>
                     <li>PHPUnit</li>
                 </ul>
             </fieldset>
@@ -145,8 +146,6 @@ $this->template('html5', 'top');
                     <li>jQuery</li>
                     <li>NodeJS</li>
                     <li>Socket.io</li>
-                    <li>&nbsp;</li>
-                    <li>&nbsp;</li>
                 </ul>
             </fieldset>
 
@@ -155,7 +154,7 @@ $this->template('html5', 'top');
                 <ul>
                     <li>AWS / Heroku</li>
                     <li>Apache / Nginx</li>
-                    <li>MySQL / PostgreSQL / DB2</li>
+                    <li>MySQL / Maria / PostgreSQL / DB2 / Oracle</li>
                     <li>Memcached</li>
                     <li>Mongo</li>
                     <li>Redis</li>                    
@@ -166,14 +165,15 @@ $this->template('html5', 'top');
             <fieldset class="misc">
                 <legend>Misc</legend>
                 <ul>
+                    <li>SAAS</li>
                 	<li>WHM / cPanel</li>
                     <li>Git / SVN</li>
-                    <li>HTML5 / CSS3 / LESS</li>
+                    <li>HTML5 / CSS3 / LESS / SASS</li>
                     <li>Java / Python</li>
-                    <li>Responsive Design / Bootstrap</li>
-                    <li>REST API / SOAP / OAuth 2.0</li>
-                    <li>SEO / Analytics</li>
-                    <li>SQL Reporting</li>
+                    <li>Responsive Design / Bootstrap 3.x</li>
+                    <li>REST API / SOAP / OAuth</li>
+                    <li>JSON / XML</li>
+                    <li>SEO / Analytics / Reports</li>
                 </ul>
             </fieldset>
 
@@ -199,7 +199,7 @@ $this->template('html5', 'top');
                         <a href="https://github.com/zgr024" target="_blank">github.com/zgr024</a>
                     </li>
                     <li class="linkedin">
-                        <a href="https://www.linkedin.com/pub/zach-rosenberg/41/4a/1" target="_blank">linkedin.com/pub/zach-rosenberg/41/4a/1</a>
+                        <a href="https://www.linkedin.com/in/zachary-rosenberg" target="_blank">linkedin.com/in/zachary-rosenberg</a>
                     </li>
                     <li class="stackoverflow">
                         <a href="http://stackoverflow.com/users/1704261/zgr024" target="_blank">stackoverflow.com/users/1704261/zgr024</a>
@@ -263,35 +263,27 @@ $this->template('html5', 'top');
                         data-url="http://webmaxco.com" 
                         />
 
+                    <img src="/images/screens/600/hc.png"
+                         alt="Sr Developer at Hotwire Communications"
+                         data-url="http://hotwirecommunications.com"
+                    />
+
                     <img src="/images/screens/600/jb.png" 
-                        alt="6 years as Sr Developer at Joonbug" 
+                        alt="Sr Developer at Joonbug"
                         data-url="http://joonbug.com" 
                         />
 
-					<img src="/images/screens/600/hc.png" 
-                        alt="4 years as Sr Developer at Hotwire Communications" 
-                        data-url="http://hotwirecommunications.com" 
-                        />
-
+                    <img src="/images/screens/600/ct.png"
+                         alt="Web Development for Crave Tickets"
+                         data-url="http://cravetickets.com"
+                    />
 
                     <img src="/images/screens/600/oe.png" 
-                        alt="Web Development for Ouija Entertainment" 
+                        alt="Custom Development for Ouija Entertainment"
                         data-url="http://ouijaentertainment.com" 
                         />
-                    
 
-                    <img src="/images/screens/600/atom.png" 
-                        class="first" 
-                        alt="I can use any IDE" 
-                        data-url="#work"
-                        />
-                                            
-                    <img src="/images/screens/600/ct.png" 
-                        alt="Web Development for Crave Tickets" 
-                        data-url="http://cravetickets.com" 
-                        />
-
-                   <img src="/images/screens/600/nyec.png"
+                    <img src="/images/screens/600/nyec.png"
                         alt="Full-Stack Development for New Year's Eve Central" 
                         data-url="http://newyearsevecentral.com" 
                         />
@@ -331,6 +323,11 @@ $this->template('html5', 'top');
                         data-url="http://homesphl.com" 
                         />
 
+                    <img src="/images/screens/600/atom.png"
+                         class="first"
+                         alt="I can use any IDE"
+                         data-url="#work"
+                    />
 
                 </div>
                 <div id="glare" class="cycle-next hover-pause"></div>
@@ -344,9 +341,6 @@ $this->template('html5', 'top');
 
     </section>
 
-
-
-
     <section id="together"
         data-stellar-background-ratio="0.15"
     >
@@ -357,9 +351,6 @@ $this->template('html5', 'top');
         </div>
 
     </section>
-
-
-
 
     <section id="clients">
         
@@ -396,7 +387,7 @@ $this->template('html5', 'top');
                 'Tom Johnsen',
                 '/images/people/tom.jpg',
                 'Owner and President',
-                "Zach is the man when it comes to websites and seo. I've received tons of business from my site.",
+                "Zach is incredible when it comes to websites and seo. I've received tons of business from my site.",
                 'https://www.linkedin.com/pub/tom-johnsen/25/218/606'
             ],
             [
@@ -459,11 +450,7 @@ $this->template('html5', 'top');
 
         </div>
 
-
     </section>
-
-
-
 
     <footer>
         
@@ -483,7 +470,6 @@ $this->template('html5', 'top');
         <div id="debug"></div>
 
     </footer>
-
 
 <?
 
