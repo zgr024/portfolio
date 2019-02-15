@@ -74,7 +74,7 @@ $this->template('html5', 'top');
         </nav>
 
         <h1>I Create Premier Web &amp; Mobile Applications</h1>
-        <h3 class=".tk-omnes-pro">I specialize in the design and development of custom web applications.</h3>
+        <h3 class=".tk-omnes-pro">I specialize in the design and development of custom web &amp; mobile applications.</h3>
         <h3>Dreams of all sizes are accepted, no job too large or small.</h3>
 
         <div class="learn-more">
@@ -115,11 +115,11 @@ $this->template('html5', 'top');
             <div class="float-left">
                 <div class="title">Chief Technology Officer | Technology Consultant</div>
                 <div class="description">
-                    I've created all types of software applications - from those that process millions of dollars - 
-                    to blog rolls, informational sites and advertising/lead generation platforms.
+                    I've created all types of software applications - from those that process millions of dollars -
+                    to blog rolls, informational sites and advertising / lead generation platforms.
                     <br><br>
-                    I was recently named the Technology Consultant for the Mortgage Bankers Association of Greater
-                    Philadelphia and I was also recently invited to become a member of the Forbes Technology Council.
+                    I recently served as the Technology Consultant for the Mortgage Bankers Association of Greater
+                    Philadelphia and was also invited to become a member of the Forbes Technology Council.
                 </div>
             </div>
         </div>
@@ -128,12 +128,11 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>PHP</legend>
                 <ul>
-                    <li>MVC</li>
+                    <li>MVC Patterns</li>
                     <li>Magento</li>
                     <li>Laravel</li>
                     <li>Symfony</li>
                     <li>Wordpress</li>
-                    <li>SkyPHP</li>
                     <li>PHPUnit</li>
                 </ul>
             </fieldset>
@@ -141,10 +140,11 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>Javascript</legend>
                 <ul>
-                    <li>AngularJS</li>
+                    <li>Angular</li>
                     <li>Backbone</li>
                     <li>jQuery</li>
                     <li>NodeJS</li>
+                    <li>React</li>
                     <li>Socket.io</li>
                 </ul>
             </fieldset>
@@ -155,10 +155,9 @@ $this->template('html5', 'top');
                     <li>AWS / Heroku</li>
                     <li>Apache / Nginx</li>
                     <li>MySQL / Maria / PostgreSQL / DB2 / Oracle</li>
-                    <li>Memcached</li>
-                    <li>Mongo</li>
-                    <li>Redis</li>                    
-                    <li>NodeJS</li>                    
+                    <li>Memcached / Redis</li>
+                    <li>MongoDB</li>
+                    <li>Node.js</li>
                 </ul>
             </fieldset>
 
@@ -185,8 +184,8 @@ $this->template('html5', 'top');
                     <li>Graphic Design</li>
                     <li>Tech Recruiting</li>
                     <li>Tech Stack Architecture</li>
-                    <li>Time/Cost Estimates</li>
-                    <li>UI/UX Wireframes</li>
+                    <li>Time / Cost Estimates</li>
+                    <li>UI / UX Wireframes</li>
                 </ul>
             </fieldset>
         </div>
@@ -228,7 +227,7 @@ $this->template('html5', 'top');
 
     <section id="work">
         
-        <h2>My Work</h2>
+        <h2>Some of My Work</h2>
 
         <hr />
 
@@ -259,79 +258,68 @@ $this->template('html5', 'top');
                 >
 
                     <img src="/images/screens/600/mw.png" 
-                        alt="Chief Technology Officer @ Webmax"
-                        data-url="http://webmaxco.com" 
+                        alt="Mortgage Applications & Solutions for Webmax"
+                        data-url="https://webmaxco.com"
                         />
 
                     <img src="/images/screens/600/hc.png"
-                         alt="Sr Developer at Hotwire Communications"
-                         data-url="http://hotwirecommunications.com"
+                         alt="Marketing Websites for Hotwire Communications"
+                         data-url="https://hotwirecommunications.com"
                     />
 
                     <img src="/images/screens/600/jb.png" 
-                        alt="Sr Developer at Joonbug"
-                        data-url="http://joonbug.com" 
+                        alt="Ticket Sales Platform for Joonbug"
+                        data-url="https://joonbug.com"
                         />
 
                     <img src="/images/screens/600/ct.png"
                          alt="Web Development for Crave Tickets"
-                         data-url="http://cravetickets.com"
+                         data-url="https://cravetickets.com"
                     />
 
                     <img src="/images/screens/600/oe.png" 
                         alt="Custom Development for Ouija Entertainment"
-                        data-url="http://ouijaentertainment.com" 
+                        data-url="https://ouijaentertainment.com"
                         />
 
                     <img src="/images/screens/600/nyec.png"
                         alt="Full-Stack Development for New Year's Eve Central" 
-                        data-url="http://newyearsevecentral.com" 
+                        data-url="https://newyearsevecentral.com"
                         />
 
                     <img src="/images/screens/600/ma.png" 
-                        alt="Customer Website w/Online Payment Solution for Hotwire Communications" 
-                        data-url="http://gethotwired.com" 
+                        alt="Online Payment Solution for Hotwire Communications"
+                        data-url="https://gethotwired.com"
                         />
 
                     <img src="/images/screens/600/js.png"
                         alt="Mobile Responsive Website Design &amp; Development for Johnsen Service" 
-                        data-url="http://johnsenservice.com" 
+                        data-url="https://johnsenservice.com"
                         />
 
                     <img src="/images/screens/600/ec.png" 
                         alt="HTML5 Parallax Investor Deck for E-coin" 
-                        data-url="http://e-coin.com" 
+                        data-url="https://e-coin.com"
                         />
 
                     <img src="/images/screens/600/bc.png" 
                         alt="Web &amp; Mobile Development for Bar Crawls" 
-                        data-url="http://barcrawls.com" 
+                        data-url="https://barcrawls.com"
                         />
 
                     <img src="/images/screens/600/fs.png" 
                         alt="Full Screen Video Landing &amp; Single Page Scroll Navigation for Fision&reg; Stay by Hotwire" 
-                        data-url="http://fisionstay.com" 
+                        data-url="https://fisionstay.com"
                         />
 
                     <img src="/images/screens/600/fsm.png" 
                         alt="Web Development &amp Analytics for Flirt Skirt or Marry" 
-                        data-url="http://flirtskirtormarry.com" 
+                        data-url="https://flirtskirtormarry.com"
                         />
 
-                    <img src="/images/screens/600/fh.png"
-                         alt="Single page scrolling menu for Johnsen Service"
-                         data-url="http://johnsenservice.com"
-                    />
-
-                    <img src="/images/screens/600/fh.png" 
-                        alt="Web Development, RETS Download, &amp Custom Interactive Map for Find Home Real Estate"
-                        data-url="http://homesphl.com" 
-                        />
-
-                    <img src="/images/screens/600/atom.png"
-                         class="first"
-                         alt="I can use any IDE"
-                         data-url="#work"
+                    <img src="/images/screens/600/mfh.png"
+                         alt="WordPress Site for My Friend's House Family Counseling Center"
+                         data-url="https://mfhrecovery.com"
                     />
 
                 </div>
@@ -445,7 +433,7 @@ $this->template('html5', 'top');
             
             <ul>
                 <li class="email">
-                    <a target="_blank" href="mailto:<?=encode('zgr024@gmail.com')?>"><?=encode('zgr024@gmail.com')?></a></li>
+                    <a target="_blank" href="mailto:<?=encode('zach@elementalappstudio.com')?>"><?=encode('zach@elementalappstudio.com')?></a></li>
                 <li class="phone">+1 (856) 924-0869  mobile</li>
                 <li class="address">
                     18 Palmwood Ave<br />
