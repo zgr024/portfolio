@@ -145,6 +145,7 @@ $this->template('html5', 'top');
                     <li>jQuery</li>
                     <li>NodeJS</li>
                     <li>React</li>
+                    <li>React Native</li>
                     <li>Socket.io</li>
                 </ul>
             </fieldset>
