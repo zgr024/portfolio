@@ -118,7 +118,6 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>PHP</legend>
                 <ul>
-                    <li>MVC Patterns</li>
                     <li>Magento</li>
                     <li>Laravel</li>
                     <li>Symfony</li>
@@ -133,7 +132,7 @@ $this->template('html5', 'top');
                     <li>Angular</li>
                     <li>Backbone</li>
                     <li>jQuery</li>
-                    <li>NodeJS</li>
+                    <li>Node.js</li>
                     <li>React</li>
                     <li>React Native</li>
                     <li>Socket.io</li>
@@ -143,26 +142,26 @@ $this->template('html5', 'top');
             <fieldset>
                 <legend>Linux Admin / DevOps</legend>
                 <ul>
-                    <li>AWS / Heroku</li>
-                    <li>Apache / Nginx</li>
+                    <li>AWS / Azure / Google Cloud / Heroku</li>
+                    <li>Apache / NGINX</li>
                     <li>MySQL / Maria / PostgreSQL / DB2 / Oracle</li>
                     <li>Memcached / Redis</li>
-                    <li>MongoDB</li>
-                    <li>Node.js</li>
+                    <li>MongoDB / Cassandra / DynamoDB</li>
+                    <li>npm / yarn</li>
                 </ul>
             </fieldset>
 
             <fieldset class="misc">
                 <legend>Misc</legend>
                 <ul>
-                    <li>SAAS</li>
+                    <li>SAAS / SAAP</li>
                 	<li>WHM / cPanel</li>
                     <li>Git / SVN</li>
                     <li>HTML5 / CSS3 / LESS / SASS</li>
                     <li>Java / Python</li>
-                    <li>Responsive Design / Bootstrap 3.x</li>
-                    <li>REST API / SOAP / OAuth</li>
-                    <li>JSON / XML</li>
+                    <li>Responsive Design / Bootstrap</li>
+                    <li>REST / SOAP / OAuth / JWT </li>
+                    <li>JSON / XML / MISMO / FNM 3.x</li>
                     <li>SEO / Analytics / Reports</li>
                 </ul>
             </fieldset>
