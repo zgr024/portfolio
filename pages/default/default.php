@@ -74,7 +74,7 @@ $this->template('html5', 'top');
         </nav>
 
         <h1>I Create Premier Web &amp; Mobile Applications</h1>
-        <h3 class=".tk-omnes-pro">I specialize in the design and development of custom web &amp; mobile applications.</h3>
+        <h3 class=".tk-omnes-pro">I specialize in design & development of custom web &amp; mobile applications.</h3>
         <h3>Dreams of all sizes are accepted, no job too large or small.</h3>
 
         <div class="learn-more">
