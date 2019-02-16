@@ -73,25 +73,18 @@ $this->template('html5', 'top');
             <? include 'nav.php'; ?>
         </nav>
 
-        <h1>I Create Premier Web &amp; Mobile Applications</h1>
-        <h3 class=".tk-omnes-pro">I specialize in design & development of custom web &amp; mobile applications.</h3>
+        <h1>I Create Premier Custom Web &amp; Mobile Applications</h1>
         <h3>Dreams of all sizes are accepted, no job too large or small.</h3>
 
         <div class="learn-more">
             <a href="#about" class="button">Find Out More</a>
         </div>
     </section>
-    
-
-
 
     <nav class="fixable">
         <? include 'nav.php'; ?>
     </nav>
     <div id="nav-placeholder" style="display:none;"></div>
-
-
-
 
     <section id="overview">
         <div class="centered">
@@ -100,9 +93,6 @@ $this->template('html5', 'top');
             </div>
         </div>
     </section>
-
-
-
 
     <section id="about">
         
@@ -210,9 +200,6 @@ $this->template('html5', 'top');
         
     </section>
 
-
-
-
     <section id="smart"
         data-stellar-background-ratio="0.15"
     >
@@ -222,9 +209,6 @@ $this->template('html5', 'top');
         </div>
 
     </section>
-
-
-
 
     <section id="work">
         
@@ -401,9 +385,6 @@ $this->template('html5', 'top');
 
     </section>
 
-
-
-
     <section id="perfection"
         data-stellar-background-ratio="0.15"
     >
@@ -411,10 +392,6 @@ $this->template('html5', 'top');
 
         </div>
     </section>
-
-
-
-
 
     <section id="contact">
 
